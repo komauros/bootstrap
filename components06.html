@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Set the page to the width of the device and set the zoom level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    
+    <title>Bootstrap Components</title>
+    <link type="text/css" rel="stylesheet" href="dist/styles.css" />
+</head>
+<body>
+    
+<div class="container">
+    <div class="page-header">
+        <h1>Bootstrap Components - Part 6: Media Object, Media List</h1>
+    </div>
+    
+    <!-- MEDIA OBJECT -->
+    
+    <div class="media">
+
+        <!-- You can use media-top, media-middle, or media-bottom -->
+        <div class="media-left media-top">
+            <a href="#">
+                <img class="media-object" src="dist/img/hamburger.jpg" alt="...">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Awesome Veggie Burger</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor...</p>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+            <a href="#">
+                <img class="media-object" src="dist/img/polenta.jpg" alt="...">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Best Polenta Recipe</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor...</p>
+        </div>
+    </div>
+</div>
+    
+<div class="clearfix"><br /></div>
+
+<!-- MEDIA LIST -->
+<div class="container">
+    <h3>What did you Eat for Lunch?</h3>
+
+    <!-- class media, to create media element-->
+    <div class="media">
+        <a class="pull-left" href="#">
+            <img class="media-object img-thumbnail media-image" src="dist/img/meatballs.jpg" alt="...">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">I ate a Veggie Burger</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor...</p>
+        </div>
+    </div>
+
+    <!-- class media, to create media element  -->
+    <div class="media">
+        <a class="pull-left" href="#">
+            <img class="media-object img-thumbnail media-image" src="dist/img/eggplant.jpg" alt="..."> <!-- media-object 2 -->
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">Eggplant Parmesan</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor...</p>
+
+            <!-- Nested Media : Was placed before the closing media-body div element -->
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object img-thumbnail media-image" src="dist/img/meatballs.jpg" alt="...">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">My Veggie Meatballs were Awesome</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor...</p>
+                </div>
+            </div>
+        </div> <!-- media-body for Eggplant closes here -->
+    </div>
+</div>
+
+<script src="dist/jquery.min.js"></script>
+<script src="dist/bootstrap.min.js"></script>
+<script src="dist/scripts.js"></script>
+</body>
+</html>
